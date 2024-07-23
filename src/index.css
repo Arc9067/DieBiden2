@@ -1,0 +1,17 @@
+@import url("https://fonts.cdnfonts.com/css/open-sans");
+
+@font-face {
+  font-family: "Futura";
+  src: url("./assets/fonts/Futura\ XBlk\ BT.ttf");
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  #aboutBg,
+  #footerBg {
+    background: url(./assets/bg.svg) center center;
+    background-size: cover;
+  }
+}
