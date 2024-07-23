@@ -8,9 +8,6 @@ function Header() {
         <a href="" className="font-futuraXBlkBT text-3xl font-bold">
           DieBiden
         </a>
-        <button className="transition hover:scale-90 cursor-pointer">
-          <img src={menu} alt="" />
-        </button>
       </div>
     </header>
   );

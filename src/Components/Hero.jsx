@@ -5,13 +5,17 @@ function Hero() {
   return (
     <section className="py-36 w-full">
       <div className="container flex flex-col justify-center items-center gap-5">
-        <img src={logo} alt="" />
-        <h1 className="font-futuraXBlkBT font-bold text-[#FCF535] text-5xl md:text-5xl text-center ">
+        <img src={logo} alt="" className="lg:max-w-[30rem]" />
+        <h1 className="font-futuraXBlkBT font-bold text-[#FCF535] text-5xl md:text-5xl mt-8 text-center ">
           DieBiden
           <span className="block mt-3 text-white">CTO</span>
         </h1>
         <p className="max-w-[500px] text-center text-white text-base font-normal leading-loose tracking-tight">
           Where is Joe? He ded
+        </p>
+
+        <p className="max-w-[500px] text-center text-white text-lg font-normal leading-loose tracking-tight break-all">
+          92rU1aL6mGQTarJWir6HUaTZBeZrQ84zknHgRxBUpump{" "}
         </p>
         <div className="flex-wrap font-bold !font-futuraXBlkBT justify-center flex-col md:flex-row items-stretch gap-3.5 flex">
           <a
